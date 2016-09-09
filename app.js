@@ -1,8 +1,8 @@
 var express = require( 'express' );
 var app = express();
 
-app.get( '/', function ( req, res ) {
-	res.send( 'Hello, heroku!' );
-});
+app.listen(3000, "localhost");
 
-app.listen(80);
+app.get( '/', function( req, res ) {
+	res.send( 'Hello, Heroku!' );
+});
