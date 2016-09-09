@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/codyogdenprime/heroku-test/issues"
   },
-  "homepage": "https://github.com/codyogdenprime/heroku-test#readme"
+  "homepage": "https://github.com/codyogdenprime/heroku-test#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
