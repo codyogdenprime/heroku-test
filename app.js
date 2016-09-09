@@ -5,4 +5,4 @@ app.get( '/', function ( req, res ) {
 	res.send( 'Hello, heroku!' );
 });
 
-app.listen(8080);
+app.listen(80);
